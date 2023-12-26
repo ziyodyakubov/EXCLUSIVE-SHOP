@@ -1,0 +1,135 @@
+header {
+    width: 100%;
+
+    // example
+
+    .nav-top {
+        padding: 12px 136px 12px 635px;
+        display: flex;
+        gap: 231px;
+        align-items: center;
+        color: white;
+        background: #000;
+        text-align: center;
+
+        p {
+            margin-left: 35px;
+            color: #FAFAFA;
+            font-family: Poppins;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 21px;
+
+            span a {
+                color: #FAFAFA;
+                text-align: center;
+                font-family: Poppins;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+                text-decoration-line: underline;
+            }
+        }
+
+        select {
+            margin-left:15px;
+            background: transparent;
+            border: none;
+            outline: none;
+            color: #FAFAFA;
+            font-family: Poppins;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 21px;
+
+            option {
+                outline: none;
+                background-color: #000;
+            }
+        }
+    }
+
+    .nav {
+        padding-top: 40px;
+        padding-bottom: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h3 a {
+            cursor: pointer;
+            color: #000;
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.72px;
+        }
+
+        &__list {
+            display: flex;
+            gap: 48px;
+            list-style-type: none;
+
+            &--item {
+                text-transform: capitalize;
+
+                &-link {
+                    text-decoration: none;
+                    padding-bottom: 2px;
+                    color: #000;
+                    text-align: center;
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+
+                    &:hover {
+                        border-bottom: 1px solid black;
+                    }
+                }
+            }
+        }
+
+        &__list-2 {
+            list-style-type: none;
+            display: flex;
+            gap: 10px;
+
+            &--item-2 {
+                display: flex;
+                &-input {
+                    margin-right: -20px;
+                    width: 243px;
+                    height: 38px;
+                    padding: 7px 12px 7px 20px;
+                    border-radius: 4px;
+                    background: #F5F5F5;
+                    border: none;
+                    outline: none;
+                    color: #000;
+                    font-family: Poppins;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 18px;
+                    opacity: 0.7;
+                }
+
+                .search-icon{
+                    position: relative;
+                    right:10px;
+                }
+
+                &-link-2 {
+                    display: flex;
+                }
+            }
+        }
+    }
+}
