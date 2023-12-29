@@ -1,0 +1,366 @@
+#section-6 {
+    margin-bottom: 140px;
+
+    .section-6__wrapper {
+        .flexbox-10 {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+            margin-bottom: 20px;
+
+            h4 {
+                color: #DB4444;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 20px;
+            }
+        }
+
+        .flexbox-11 {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 60px;
+
+            h2 {
+                color: #000;
+                font-family: Inter;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 48px;
+                letter-spacing: 1.44px;
+            }
+        }
+
+        .flexbox-12 {
+            display: flex;
+            gap: 30px;
+
+            .card-shop {
+
+                &-img {
+                    width: 270px;
+                    height: 250px;
+                    padding: 12px;
+                    background: #F5F5F5;
+
+                    .dog-food {
+                        position: relative;
+                        bottom: 50px;
+                        left: 20px;
+
+                        img {
+                            display: block;
+                        }
+                    }
+
+                    .camera {
+                        position: relative;
+                        bottom: 60px;
+                        left: 50px;
+
+                        img {
+                            display: block;
+                        }
+                    }
+
+                    .laptop {
+                        position: relative;
+                        bottom: 56px;
+                        left: 50px;
+
+                        img {
+                            display: block;
+                        }
+                    }
+
+                    .girls-makeup {
+                        position: relative;
+                        bottom: 50px;
+                        left: 40px;
+
+                        img {
+                            display: block;
+                        }
+                    }
+
+
+                    .heart-eye {
+                        position: relative;
+                        left: 215px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 8px;
+                        width: 34px;
+
+                        .like {
+                            cursor: pointer;
+                        }
+                    }
+
+                    // .hover-title {
+                    //     position: relative;
+                    //     bottom:65px;
+                    //     right:11px;
+                    //     padding: 8px 87px;
+                    //     border-radius: 0px 0px 4px 4px;
+                    //     background: #000;
+
+                    //     p {
+                    //         color: #FFF;
+                    //         text-align: center;
+                    //         font-family: Poppins;
+                    //         font-size: 16px;
+                    //         font-style: normal;
+                    //         font-weight: 500;
+                    //         line-height: 24px;
+                    //     }
+
+                    // }
+                }
+
+                &-title {
+                    margin-top: 16px;
+
+                    h3 {
+                        color: #000;
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 24px;
+                    }
+
+                    p {
+                        margin-bottom: 8px;
+                        margin-top: 8px;
+                        color: #DB4444;
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 24px;
+
+                        span {
+                            margin-left: 12px;
+                            color: #000;
+                            font-family: Poppins;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 24px;
+                            text-decoration: line-through;
+                            opacity: 0.5;
+                        }
+                    }
+
+                    .otsenka {
+                        display: flex;
+                        align-items: center;
+
+                        span {
+                            opacity: 0.5;
+                            margin-left: 8px;
+                            color: #000;
+                            font-family: Poppins;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 21px;
+                        }
+                    }
+
+                }
+
+                // &:hover {
+                //     .hover-title{
+                //         cursor: pointer;
+                //         display: flex;
+                //     }
+                // }
+            }
+        }
+
+        .flexbox-13 {
+            margin-top: 60px;
+            margin-bottom: 60px;
+            display: flex;
+            gap: 30px;
+
+            .card-shop {
+
+                &-img {
+                    width: 270px;
+                    height: 250px;
+                    padding: 12px;
+                    background: #F5F5F5;
+
+                    .boys-toy{
+                        position: relative;
+                        bottom: 50px;
+                        left: 30px;
+
+                        img {
+                            display: block;
+                        }
+                    }
+
+                    .chista-butsa {
+                        position: relative;
+                        bottom: 50px;
+                        left: 30px;
+
+                        img {
+                            display: block;
+                        }
+                    }
+
+                    .jostik {
+                        position: relative;
+                        bottom: 60px;
+                        left: 30px;
+
+                        img {
+                            display: block;
+                        }
+                    }
+
+                    .jacket {
+                        position: relative;
+                        bottom: 50px;
+                        left: 30px;
+
+                        img {
+                            display: block;
+                        }
+                    }
+
+                    .new{
+                        position: relative;
+                        bottom:80px;
+                        right: 210px;
+                        display: inline;
+                    }
+
+                    .heart-eye {
+                        position: relative;
+                        left: 215px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 8px;
+                        width: 34px;
+
+                        .like {
+                            cursor: pointer;
+                        }
+                    }
+
+                    // .hover-title {
+                    //     position: relative;
+                    //     bottom:65px;
+                    //     right:11px;
+                    //     padding: 8px 87px;
+                    //     border-radius: 0px 0px 4px 4px;
+                    //     background: #000;
+
+                    //     p {
+                    //         color: #FFF;
+                    //         text-align: center;
+                    //         font-family: Poppins;
+                    //         font-size: 16px;
+                    //         font-style: normal;
+                    //         font-weight: 500;
+                    //         line-height: 24px;
+                    //     }
+
+                    // }
+                }
+
+                &-title {
+                    margin-top: 16px;
+
+                    h3 {
+                        color: #000;
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 24px;
+                    }
+
+                    p {
+                        margin-bottom: 8px;
+                        margin-top: 8px;
+                        color: #DB4444;
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 24px;
+
+                        span {
+                            margin-left: 12px;
+                            color: #000;
+                            font-family: Poppins;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 24px;
+                            text-decoration: line-through;
+                            opacity: 0.5;
+                        }
+                    }
+
+                    .otsenka {
+                        display: flex;
+                        align-items: center;
+
+                        span {
+                            opacity: 0.5;
+                            margin-left: 8px;
+                            color: #000;
+                            font-family: Poppins;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 21px;
+                        }
+                    }
+
+                }
+
+                // &:hover {
+                //     .hover-title{
+                //         cursor: pointer;
+                //         display: flex;
+                //     }
+                // }
+            }
+        }
+
+        button {
+            color: #FAFAFA;
+
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            display: flex;
+            padding: 16px 48px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 4px;
+            background: #DB4444;
+            border: none;
+            margin-left: 455px;
+
+            &:hover{
+                background: #db4444df;
+            }
+        }
+    }
+}

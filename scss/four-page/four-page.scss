@@ -1,0 +1,74 @@
+#wishlist-section-1 {
+    .wishlist-section-1__wrapper {
+        &-flexbox-1 {
+            margin-top: 95px;
+            margin-bottom: 75px;
+
+            .flexbox-mix-23 {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                button {
+                    display: flex;
+                    outline: none;
+                    padding: 16px 48px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    border-radius: 4px;
+                    border: 1px solid rgba(0, 0, 0, 0.50);
+
+                    &:hover{
+                        background-color: #fff;
+                    }
+                }
+            }
+
+        }
+
+        &-flexbox-2 {
+            margin-bottom: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            button {
+                    display: flex;
+                    padding: 16px 48px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    border-radius: 4px;
+                    border: 1px solid rgba(0, 0, 0, 0.50);
+                    outline: none;
+                    color: #000;
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 24px;
+
+                    &:hover{
+                        background-color: #fff;
+                    }
+                }
+
+            div {
+                display: flex;
+                align-items: center;
+                gap: 16px;
+
+                h3 {
+                    color: #000;
+                    text-align: center;
+                    font-family: Poppins;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+}

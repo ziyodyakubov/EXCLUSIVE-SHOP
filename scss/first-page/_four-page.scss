@@ -1,0 +1,207 @@
+#section-4 {
+    .section-4__wrapper {
+        .flexbox-7 {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+
+            h3 {
+                color: #DB4444;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 20px;
+                margin-left: 16px;
+
+            }
+        }
+
+        .flexbox-8 {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 60px;
+
+            h3 {
+                color: #000;
+                font-family: Inter;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 48px;
+                letter-spacing: 1.44px;
+            }
+
+            button {
+                display: flex;
+                padding: 16px 48px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                border-radius: 4px;
+                background: #DB4444;
+                border: none;
+                color: #FAFAFA;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+
+                &:hover {
+                    background: #db4444d9;
+                }
+            }
+        }
+
+        .flexbox-9 {
+            overflow-x: scroll;
+            display: flex;
+            gap: 30px;
+            margin-bottom: 140px;
+
+            .card-shop {
+
+                &-img {
+                    width: 270px;
+                    height: 250px;
+                    padding: 12px;
+                    background: #F5F5F5;
+
+                    .kurtka {
+                        position: relative;
+                        bottom: 40px;
+                        left: 50px;
+
+                        img {
+                            display: block;
+                        }
+                    }
+
+                    .sumka {
+                        position: relative;
+                        bottom: 30px;
+                        left: 30px;
+
+                        img {
+                            display: block;
+                        }
+                    }
+
+                    .kalonka {
+                        position: relative;
+                        bottom: 15px;
+                        left: 30px;
+
+                        img {
+                            display: block;
+                        }
+                    }
+
+                    .shkaf {
+                        position: relative;
+                        bottom: 50px;
+                        left: 60px;
+
+                        img {
+                            display: block;
+                        }
+                    }
+
+                    .heart-eye {
+                        position: relative;
+                        left: 215px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 8px;
+                        width: 34px;
+
+                        .like {
+                            cursor: pointer;
+                        }
+                    }
+
+                    // .hover-title {
+                    //     position: relative;
+                    //     bottom:65px;
+                    //     right:11px;
+                    //     padding: 8px 87px;
+                    //     border-radius: 0px 0px 4px 4px;
+                    //     background: #000;
+
+                    //     p {
+                    //         color: #FFF;
+                    //         text-align: center;
+                    //         font-family: Poppins;
+                    //         font-size: 16px;
+                    //         font-style: normal;
+                    //         font-weight: 500;
+                    //         line-height: 24px;
+                    //     }
+
+                    // }
+                }
+
+                &-title {
+                    margin-top: 16px;
+
+                    h3 {
+                        color: #000;
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 24px;
+                    }
+
+                    p {
+                        margin-bottom: 8px;
+                        margin-top: 8px;
+                        color: #DB4444;
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 24px;
+
+                        span {
+                            margin-left: 12px;
+                            color: #000;
+                            font-family: Poppins;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 24px;
+                            text-decoration: line-through;
+                            opacity: 0.5;
+                        }
+                    }
+
+                    .otsenka {
+                        display: flex;
+                        align-items: center;
+
+                        span {
+                            opacity: 0.5;
+                            margin-left: 8px;
+                            color: #000;
+                            font-family: Poppins;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 21px;
+                        }
+                    }
+
+                }
+
+                // &:hover {
+                //     .hover-title{
+                //         cursor: pointer;
+                //         display: flex;
+                //     }
+                // }
+            }
+        }
+    }
+}

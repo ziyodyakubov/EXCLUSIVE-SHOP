@@ -1,11 +1,10 @@
 #intro___section {
-    border-top: 1px solid rgba(0, 0, 0, 0.302);
     .intro__section-wrapper {
         padding-top: 40px;
         display: flex;
         gap: 45px;
 
-        &-title {
+        aside {
             ul {
                 display: flex;
                 flex-direction: column;
@@ -13,6 +12,8 @@
                 list-style-type: none;
 
                 li {
+                    display: flex;
+
                     a {
                         color: #000;
                         text-align: center;

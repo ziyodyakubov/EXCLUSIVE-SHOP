@@ -1,0 +1,76 @@
+#section-7 {
+
+    .company-informations{
+        display: flex;
+        justify-content: center;
+        gap: 88px;
+        margin-top: -300px;
+        margin-bottom: 140px;
+    }
+    .section-7__wrapper {
+        margin-bottom: 140px;
+
+        .flexbox-14 {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 16px;
+            align-items: center;
+
+            h4 {
+                color: #DB4444;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 20px;
+            }
+        }
+
+        .flexbox-15 {
+            h2 {
+                margin-bottom: 60px;
+                color: #000;
+                font-family: Inter;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 48px;
+                letter-spacing: 1.44px;
+            }
+        }
+
+        .gridbox{
+            display: grid;
+
+            &-card-1{
+                grid-row: 1;
+                grid-column: 1;
+            }
+
+            &-card-2{
+                position: relative;
+                left:30px;
+                grid-row:1;
+                grid-column: 2;
+            }
+
+            &-card-3{
+                position: relative;
+                bottom:290px;
+                left:30px;
+                grid-row: 2;
+                grid-column: 2;
+            }
+
+            &-card-4{
+                position: relative;
+                bottom:290px;
+                left:-240px;
+                grid-row: 2;
+                grid-column: 3;
+
+            }
+        }
+
+    }
+}

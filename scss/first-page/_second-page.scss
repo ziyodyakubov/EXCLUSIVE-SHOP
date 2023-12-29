@@ -1,0 +1,255 @@
+#section-2 {
+
+    .section-2__wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-top: 140px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.179);
+
+        .flexbox-1 {
+            display: flex;
+            align-items: center;
+            margin-bottom: 13px;
+
+            h3 {
+                margin-left: 16px;
+                color: #DB4444;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 20px;
+            }
+        }
+
+        .flexbox-2 {
+            display: flex;
+            align-items: center;
+
+            h2 {
+                margin-bottom: -20px;
+                color: #000;
+                font-family: Inter;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 48px;
+                letter-spacing: 1.44px;
+                margin-right: 87px;
+            }
+
+            .strelka {
+                position: relative;
+                left: 460px;
+                top: 8px;
+            }
+        }
+
+        .flexbox-3 {
+            display: flex;
+            gap: 30px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            overflow-x: scroll;
+
+            .card-shop {
+
+                &-img {
+                    width: 270px;
+                    height: 250px;
+                    padding: 12px;
+                    background: #F5F5F5;
+
+                    .play-station {
+                        position: relative;
+                        bottom: 60px;
+                        left: 40px;
+
+                        img {
+                            display: block;
+                        }
+                    }
+
+                    .klaviatura {
+                        position: relative;
+                        bottom: 50px;
+                        left: 30px;
+
+                        img {
+                            display: block;
+                        }
+                    }
+
+                    .televizor {
+                        position: relative;
+                        bottom: 55px;
+                        left: 30px;
+
+                        img {
+                            display: block;
+                        }
+                    }
+
+                    .chair {
+                        position: relative;
+                        bottom: 80px;
+                        left: 60px;
+
+                        img {
+                            display: block;
+                        }
+                    }
+
+                    .discount-40 {
+                        position: relative;
+                    }
+
+                    .heart-eye {
+                        position: relative;
+                        bottom: 30px;
+                        left: 215px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 8px;
+                        width: 34px;
+                    }
+
+                     .hover-title {
+                        z-index: 3;
+                        display: none;
+                        position: relative;
+                        top:170px;
+                        width: 270px;
+                        right:11px;
+                        padding: 8px 87px;
+                        border-radius: 0px 0px 4px 4px;
+                        background: #000;
+
+                        p {
+                            color: #FFF;
+                            text-align: center;
+                            font-family: Poppins;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 24px;
+                        }
+
+                    }
+                }
+
+                &-title {
+                    
+                    margin-top: 16px;
+
+                    .hover-title {
+                        z-index: 3;
+                        display: none;
+                        position: relative;
+                        bottom:70px;
+                        width: 280px;
+                        right:11px;
+                        padding: 8px 87px;
+                        border-radius: 0px 0px 4px 4px;
+                        background: #000;
+
+                        p {
+                            color: #FFF;
+                            text-align: center;
+                            font-family: Poppins;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 24px;
+                        }
+
+                    }
+
+                    h3 {
+                        color: #000;
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 24px;
+                    }
+
+                    p {
+                        margin-bottom: 8px;
+                        margin-top: 8px;
+                        color: #DB4444;
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 24px;
+
+                        span {
+                            margin-left: 12px;
+                            color: #000;
+                            font-family: Poppins;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 24px;
+                            text-decoration: line-through;
+                            opacity: 0.5;
+                        }
+                    }
+
+                    .otsenka {
+                        display: flex;
+                        align-items: center;
+
+                        span {
+                            opacity: 0.5;
+                            margin-left: 8px;
+                            color: #000;
+                            font-family: Poppins;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 21px;
+                        }
+                    }
+
+                }
+
+                // &:hover {
+                //     .hover-title{
+                //         cursor: pointer;
+                //         display: flex;
+                //     }
+
+                //     .card-shop-title{
+                //         position: relative;
+                //         bottom:60px;
+                //     }
+
+
+                // }
+            }
+        }
+
+        .all_products {
+            border: none;
+            border-radius: 4px;
+            background: #DB4444;
+            color: #FAFAFA;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            padding: 16px 48px;
+            width: 236px;
+            margin-left: 468px;
+            margin-bottom: 60px;
+
+            &:hover{
+                background: #db4444d4;
+            }
+        }
+    }
+
+}
